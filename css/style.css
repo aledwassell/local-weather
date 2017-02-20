@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond|EB+Garamond");
+.jumbotron {
+  max-width: 40em;
+  margin: 10em auto;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+  background-color: #cf6766;
+  color: #565656;
+}
+
+body {
+  background-color: #a9a9a9;
+}
+
+.cell {
+  padding: auto 0;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, p {
+  color: #565656;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue";
+}
+
+p {
+  font-family: "EB Garamond", serif;
+}
+
+#locationText, #locationBtn {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+  padding: 6px 10px;
+  background: #fff;
+  margin-right: 2px;
+}
